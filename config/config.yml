@@ -2,6 +2,6 @@ app:
   name: CurrencyExchangApp
   port: :3000
 database:
-  dsn: root:mc040626@tcp(127.0.0.1:3306)/test?charset=utf8mb4&parseTime=True&loc=UTC
+  dsn: root:password@tcp(127.0.0.1:3306)/test?charset=utf8mb4&parseTime=True&loc=UTC
   MaxOpenConns: 11
   MaxIdleConns: 10
