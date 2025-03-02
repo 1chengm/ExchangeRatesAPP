@@ -1,6 +1,6 @@
 app:
   name: CurrencyExchangApp
-  port: 
+  port: :8081
 database:
   dsn: root:MengCheng@2025!@tcp(127.0.0.1:3306)/test?charset=utf8mb4&parseTime=True&loc=UTC
   MaxOpenConns: 11
