@@ -12,7 +12,7 @@ func SetupRouter() *gin.Engine{
 	r := gin.Default()
 
 	r.Use(cors.New(cors.Config{
-		AllowOrigins: 	[]string{"http://localhost:5173","http://47.109.182.169"},//允许所有源
+		AllowOrigins: 	[]string{"http://localhost:5173"},//允许所有源
 		AllowMethods: 	[]string{"GET","POST","OPTIONS"},//OPTIONS是预检请求
 		AllowHeaders: 	[]string{"Origin","Content-Type","Authorization"},
 		ExposeHeaders: 	[]string{"Content-Length"},
